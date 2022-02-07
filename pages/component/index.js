@@ -4,10 +4,9 @@ import section from './section'
 import footer from './footer'
 function Layout() {
     return (
-
-        <Header></Header>
-
-
+        <div>
+            <Header></Header>
+        </div>
     );
 }
 
