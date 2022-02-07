@@ -1,0 +1,6 @@
+.comingSoon {
+    height: 1000px;
+    background-image: url("/img/comingSoon/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

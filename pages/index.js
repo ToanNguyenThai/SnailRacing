@@ -1,5 +1,6 @@
 
-import Header from '../pages/component/header'
+import Header from './component/header'
+import ComingSoon from './component/comingSoon'
 import Nftitems from './component/nft-items/nftitems'
 import Racetype from './component/racetype/racetype'
 
@@ -7,8 +8,9 @@ export default function Home() {
     return (
         <>
             <Header></Header>
-            <Racetype/>
-            <Nftitems/>
+            <ComingSoon></ComingSoon>
+            <Racetype />
+            <Nftitems />
         </>
     )
 }

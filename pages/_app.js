@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/header.css'
+import '../styles/comingSoon.css'
 // add bootstrap css 
 import 'bootstrap/dist/css/bootstrap.css'
 
