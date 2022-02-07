@@ -1,12 +1,16 @@
-
-
+import { Container, Row } from "react-bootstrap";
 
 function Racetype() {
-    return (
-        <Container>
+  return 
+  <Container>
+      <Row>
+      title
+      </Row>
+      <Row>
+          
+      </Row>
 
-        </Container>
-    );
+  </Container>;
 }
 
 export default Racetype;
