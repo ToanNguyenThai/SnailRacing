@@ -1,0 +1,17 @@
+.racetype_title {
+    width: 100%;
+    min-height: 100%;
+  }
+  .racetype_card {
+    width: 100%;
+  }
+  
+  @media (min-width:768px) {
+      .racetype_title {
+          transform: scale(0.7);
+          -webkit-transform: scale(0.7);
+          -moz-transform: scale(0.7);
+          -ms-transform: scale(0.7);
+          -o-transform: scale(0.7);
+        }
+  }

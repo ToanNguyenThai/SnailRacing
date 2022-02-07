@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
-import style from './racetyle.module.css'
-import title from '../../../assets/racetype/Racetype-title.png'
-import card1 from '../../../assets/racetype/card/Racetype-card1.png'
+import style from './nftitems.module.css'
+import title from '../../../assets/nft-items/nftitem-title.png';
 
-function Racetype() {
+
+function Nftitems() {
   return (
   <Container>
           <Row className="d-flex">
@@ -17,13 +17,13 @@ function Racetype() {
           <Row className="d-flex">
           <Col className="d-flex justify-content-md-center flex-md-row flex-column">
           <div>
-              <img src={card1.src} alt="" className={`${style.racetype_card} px-md-3 px-xl-5 py-3`}></img>
+              {/* <img src={card1.src} alt="" className={`${style.racetype_card} px-md-3 px-xl-5 py-3`}></img> */}
               </div>
               <div>
-              <img src={card1.src} alt="" className={`${style.racetype_card} px-md-3 px-xl-5 py-3`}></img>
+              {/* <img src={card1.src} alt="" className={`${style.racetype_card} px-md-3 px-xl-5 py-3`}></img> */}
               </div>
               <div>
-              <img src={card1.src} alt="" className={`${style.racetype_card} px-md-3 px-xl-5 py-3`}></img>
+              {/* <img src={card1.src} alt="" className={`${style.racetype_card} px-md-3 px-xl-5 py-3`}></img> */}
               </div>
           </Col>
           </Row>
@@ -31,4 +31,4 @@ function Racetype() {
   );
 }
 
-export default Racetype;
+export default Nftitems;

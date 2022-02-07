@@ -1,3 +1,13 @@
+/* .bg_racetype{
+  background: url('../../../assets/racetype/bg_racetype.png');
+  background-color: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  min-width: 100%;
+} */
+
 .racetype_title {
   width: 100%;
   min-height: 100%;
@@ -5,6 +15,7 @@
 .racetype_card {
   width: 100%;
 }
+
 
 @media (min-width:768px) {
     .racetype_title {
