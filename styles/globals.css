@@ -1,0 +1,14 @@
+:root {
+    --primary-brown: #8b311b;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.wrap {
+    max-width: 1920px !important;
+}
