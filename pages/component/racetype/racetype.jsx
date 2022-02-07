@@ -19,7 +19,7 @@ function Racetype() {
                 <Row className="d-flex">
                     <Col className="d-flex justify-content-md-center flex-md-row flex-column">
                         <div class="position-relative">
-                           <img src={card1.src} alt="" className={`${style.racetype_card} py-2 px-xl-5 px-md-2`}/>
+                           <img src={card1.src} alt="" className={`${style.racetype_card} py-2 px-xl-5 px-md-0`}/>
                            <ul className={`${style.content} position-absolute`}>
                             <li className={`${style.article}`}>a</li>
                             <li className={`${style.article}`}>a</li>
@@ -28,7 +28,7 @@ function Racetype() {
 
                         </div>
                         <div class="position-relative">
-                        <img src={card2.src} alt="" className={`${style.racetype_card} py-2 px-xl-5 px-md-2`}/>
+                        <img src={card2.src} alt="" className={`${style.racetype_card} py-2 px-xl-5 px-md-0`}/>
                         <ul className={`${style.content} position-absolute`}>
                             <li>a</li>
                             <li>a</li>
