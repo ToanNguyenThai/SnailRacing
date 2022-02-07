@@ -7,10 +7,10 @@ function Racetype() {
       title
       </Row>
       <Row>
-          
+      card 
       </Row>
   </Container>
-  )
+  );
 }
 
 export default Racetype;
