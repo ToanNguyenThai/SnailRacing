@@ -1,8 +1,225 @@
 .header {
+    position: absolute;
     display: flex;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     justify-content: space-between;
 }
-.header nav img {
+.header .logo {
+    max-width: 142px;
     width: 100%;
+    margin-top: 25px;
+}
+.header .Navbar {
+    max-width: 1581px;
+    width: 100%;
+    height: 129.89px;
+    margin-top: 25px;
+    background-image: url("/img/header/navBG.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Navbar__container {
+    display: flex;
+    align-items: center;
+}
+.Navbar__container ul {
+    list-style: none;
+    padding-left: 50px;
     height: 100%;
+    margin-top: 9px;
+}
+
+.Navbar__container ul li {
+    display: inline-block;
+    font-family: "Hey Comic", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 7px;
+    cursor: pointer;
+}
+.Navbar__container ul .list__item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.connect__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+.connect__btn img {
+    position: relative;
+}
+.text__wrap {
+    display: flex;
+    justify-content: center;
+}
+.connect__btn p {
+    bottom: 45px;
+    position: absolute;
+    margin: 0 auto;
+    color: var(--primary-brown);
+    text-shadow: none;
+}
+/* --------------- */
+.Carousel {
+    height: 1510px;
+    background-image: url("/img/header/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.tree__wrap {
+    position: absolute;
+    top: 190px;
+}
+.Carousel .tree {
+    position: absolute;
+    width: 181px;
+    height: 738px;
+    left: 170px;
+    top: 279px;
+}
+.inventory {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    width: 427.78px;
+    height: 150.06px;
+    left: 112px;
+    top: 415px;
+}
+.market {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    width: 427.78px;
+    height: 150.06px;
+    left: 120px;
+    top: 565px;
+}
+.tree__direction {
+    position: absolute;
+    left: 0%;
+    right: 1.66%;
+    top: 18.28%;
+    bottom: -0.17%;
+    transform: rotate(-3.74deg);
+    width: 80%;
+}
+.tree__list p {
+    position: absolute;
+    left: 0.5%;
+    right: 20.38%;
+    top: 30%;
+    bottom: 16.07%;
+
+    transform: rotate(-4.55deg);
+
+    font-family: "Hey Comic", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 83px;
+
+    color: #ffd986;
+
+    transform: rotate(-4.55deg);
+}
+.mushroom {
+    position: absolute;
+    width: 780px;
+    height: 578.47px;
+    left: 605px;
+    top: 240px;
+}
+.grass {
+    position: absolute;
+    top: 250px;
+}
+.grass4 {
+    position: absolute;
+    width: 468px;
+    height: 217px;
+    left: 148px;
+    top: 914px;
+}
+.grass1 {
+    position: absolute;
+    width: 853px;
+    height: 395px;
+    left: -117px;
+    top: 1045px;
+}
+.grass2 {
+    position: absolute;
+    width: 919px;
+    height: 426px;
+    left: 1178px;
+    top: 1049px;
+}
+.grass3 {
+    position: absolute;
+    width: 773px;
+    height: 358px;
+    left: 590px;
+    top: 1080px;
+}
+@media only screen and (max-width: 1762px) {
+    .header .Navbar {
+        max-width: 1400px;
+    }
+    .connect__btn {
+        margin-left: 60px;
+    }
+    .connect__btn img {
+        width: 94%;
+    }
+    .Navbar__container ul {
+        margin-top: 5px;
+    }
+    .Navbar__container ul .list__item {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+    .connect__btn p {
+        bottom: 57px;
+    }
+    .tree__direction {
+        width: 70%;
+    }
+    /* .Carousel .tree {
+        width: 131px;
+        height: 688px;
+    }
+    .inventory,
+    .market {
+        width: 370.78px;
+        height: 100.06px;
+    } */
+}
+@media only screen and (max-width: 1600px) {
+    .header .Navbar {
+        max-width: 1300px;
+    }
+    .connect__btn {
+        margin-left: 16px;
+    }
+    .connect__btn img {
+        width: 94%;
+    }
+    .Navbar__container ul {
+        margin-top: 1px;
+    }
+    .Navbar__container ul .list__item {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 5px;
+    }
+    .connect__btn p {
+        bottom: 60px;
+    }
 }
