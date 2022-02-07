@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 
 function Racetype() {
-  return 
+  return (
   <Container>
       <Row>
       title
@@ -9,8 +9,8 @@ function Racetype() {
       <Row>
           
       </Row>
-
-  </Container>;
+  </Container>
+  )
 }
 
 export default Racetype;
