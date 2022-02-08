@@ -6,7 +6,7 @@ import Racetype from './component/racetype/racetype'
 export default function Home() {
     return (
         <>
-            <Header></Header>
+            {/* <Header></Header> */}
             <Racetype/>
             <Nftitems/>
         </>
